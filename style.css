@@ -1,0 +1,74 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.upper-side{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.color-kisu{
+    color:rgb(211, 93, 50);
+}
+h1{
+    font-size: 50px;  
+}
+.half-width{
+    width: 40%;
+    margin-left: 10%;   
+}
+.half-width img{
+    width: 60%;
+    margin-left: 20%;
+}
+.button-style{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(15, 173, 194), rgb(34, 4, 90));
+    color: white;
+    padding: 4px 20px;
+    border-radius: 8px;
+}
+p{
+    text-align: justify;
+}
+.head-box{
+    border-left: 2px  solid;
+    border-color: tomato;
+    padding:0px 10px ;
+    font-family: 'Abril Fatface', cursive;
+}
+.h-center{
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+.ditio-vag{
+    margin-left: 150px;
+}
+.mission-list{
+    display: flex;
+    margin-left: 10px;
+}
+.list{
+    margin: 10px 20px;
+}
+.img-size{
+    height: 180px;
+    width: 180px;
+}
+#list1{
+    background-color: wheat;
+    border-radius: 20px;
+    padding: 10px 20px 30px 20px;
+    width: 80%;
+}
+#list2{
+    background-color: rgb(122, 120, 120);
+    border-radius: 20px;
+    padding: 10px 20px 30px 20px;
+    width: 80%;
+}
+#list3{
+    background-color: rgb(94, 104, 88);
+    border-radius: 20px;
+    padding: 10px 20px 30px 20px;
+    width: 80%;
+}
