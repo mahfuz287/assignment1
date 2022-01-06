@@ -4,7 +4,7 @@ body{
 .upper-side{
     display: flex;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .color-kisu{
     color:rgb(211, 93, 50);
@@ -24,17 +24,19 @@ h1{
     text-decoration: none;
     background-image: linear-gradient(rgb(15, 173, 194), rgb(34, 4, 90));
     color: white;
-    padding: 4px 20px;
+    padding: 6px 20px;
     border-radius: 8px;
 }
 p{
     text-align: justify;
 }
 .head-box{
-    border-left: 2px  solid;
-    border-color: tomato;
+    border-left: 3px solid;
+    border-color: red;
     padding:0px 10px ;
+    border-radius: 2px;
     font-family: 'Abril Fatface', cursive;
+    line-height: 50px;
 }
 .h-center{
     text-align: center;
@@ -71,4 +73,73 @@ p{
     border-radius: 20px;
     padding: 10px 20px 30px 20px;
     width: 80%;
+}
+.tesora-vag{
+    display: flex;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 5%;
+    background-image: url(shape-1.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.tesora-vag img{
+    width: 85%;
+    margin-left:80px;
+    
+}
+.half-width1{
+    width: 50%;
+}
+.width{
+    margin: 40px;
+}
+.line{
+    line-height: 30px;
+    font-size: 20px;
+}
+.arekta-vag{
+    display: flex;
+    margin-top: 5%;
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
+    margin-bottom: 5%;
+}
+.arekta-vag img{
+    width: 75%;
+    margin-right: 20%;
+    margin-left: 5%;
+}
+.amar-section{
+    display: flex;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.amar-section img{
+    width: 80%;
+    margin-right: 15%;
+}
+.pera{
+    margin-left: 20%;
+}
+footer {
+    background-color: black;
+    padding: 10px 0px;
+}
+.footh{
+    color: white;
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    font-size: 30px;
+    font-family: 'Lobster', cursive
+}
+footer p{
+    color:white;
+    text-align: center;
 }
